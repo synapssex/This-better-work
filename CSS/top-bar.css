@@ -1,0 +1,41 @@
+/*Top bar*/
+body{
+  margin: 0;
+}
+
+.top-bar {
+   background-color: #293132;
+   padding: 15px;
+}
+
+.top-bar a {
+   color: white;
+   text-decoration: none;
+   /*sig JP*/
+   margin-right: 20px;
+   font-weight: bold;
+}
+
+/*Bg color*/
+body{
+  background-color: #E8F0FF;
+  color: #000000;
+}
+
+/*Fonts and text size*/
+p{
+  font-size: 19px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 20px;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  font-size: 1rem;
+}
