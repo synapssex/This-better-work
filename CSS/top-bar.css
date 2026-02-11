@@ -1,83 +1,9 @@
-/*Top bar*/
-body {
-  margin: 0;
+.footer {
+    display: flex;
+    flex-direction: column;
 }
 
-.top-bar {
-  background-color: #293132;
-  padding: 15px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-}
-
-.top-bar a {
-  color: white;
-  text-decoration: none;
-  margin-right: 20px;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.top-bar a:hover {
-  color: #87CEEB;
-}
-
-/* Background and text colors */
-body {
-  background-color: #E8F0FF;
-  color: #000000;
-  font-family: 'Merriweather', serif;
-  font-size: 1rem;
-}
-
-/* Content spacing */
 .content {
-  padding: 10px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-/* Typography */
-p {
-  font-size: 19px;
-  line-height: 1.6;
-}
-
-h1 {
-  font-size: 30px;
-  margin-top: 0;
-}
-
-h3 {
-  font-size: 20px;
-}
-
-/* Gallery grid and hover effects */
-.gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
-
-.gallery img {
-  width: 100%;
-  height: auto;
-  cursor: pointer;
-  border-radius: 5px;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.gallery img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-/* Footer */
-footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #293132;
-  color: aliceblue;
-  margin-top: 100px;
+    flex: 1;
+    min-height: 100vh;
 }
